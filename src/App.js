@@ -53,6 +53,7 @@ export default function App() {
               <h3>{note.title}</h3>
               <p>{note.content}</p>
               <button className="download-btn" onClick={() => downloadNote(note)}>Download</button>
+              <pre></pre>
               <button className="delete-btn" onClick={() => deleteNote(note.id)}>Delete</button>
             </div>
           ))}
